@@ -77,10 +77,10 @@ time {
 
 div.scrollmenu {
   background-color: #6E4B73;
-  overflow: auto;
-
+  overflow-x: scroll;
+  overflow-y: hide;
   white-space: nowrap;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   
   
@@ -93,7 +93,7 @@ div.scrollmenu a {
   padding: 6px;
   text-decoration: none;
   border-top: 1px solid #6E4B73;
-border-right: 1px solid white;
+  border-right: 1px solid white;
   border-radius: 5px;
   
 }
