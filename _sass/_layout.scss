@@ -103,7 +103,7 @@ aside {
 				position: relative;
 				a {
 					text-decoration: none;
-					display: block;
+					display: inline-block;
 					padding: 6px;
                                         color: white;
 					font-family: 'Muli', sans-serif;
@@ -123,11 +123,7 @@ aside {
 				}
 			}
 		}
-		&:after {
-			content: '';
-			display: table;
-			clear: both;
-		}
+		
 	}
 }
 footer {
