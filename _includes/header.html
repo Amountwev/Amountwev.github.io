@@ -3,11 +3,11 @@
 		<nav>
 			<ul>
 				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				<li><a href="{{ page.url | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
-				<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
-                                <li><a href="{{ "/about" | prepend: site.baseurl }}">about</a></li>
-                                <li><a href="{{ "/search" | prepend: site.baseurl }}">search</a></li>
+				<li><a href="{{ "/blog" | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>Blog</a></li>
+                                <li><a href="{{ "/about" | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>about</a></li>
+                                <li><a href="{{ "/search" | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>search</a></li>
 		
 		
 			</ul>
