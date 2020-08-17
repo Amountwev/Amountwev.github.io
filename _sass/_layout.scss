@@ -85,6 +85,8 @@ aside {
 			margin: 0;
 			padding: 0;
 			list-style: none;
+                       overflow: auto;
+                       white-space: nowrap;
 			li {
 				float: left;
 				position: relative;
