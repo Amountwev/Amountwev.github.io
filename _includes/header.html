@@ -1,19 +1,14 @@
-
-	<div class="container">
-		<nav>
-			<ul>
+<div class="scrollmenu">
+	
 				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>{{ page.title }}</a></li>
+				<a href="{{ page.url | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>{{ page.title }}</a>
 				{% endif %} {% endfor %}
-				<li><a href="{{ "/blog" | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>Blog</a></li>
-                                <li><a href="{{ "/about" | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>about</a></li>
-                                <li><a href="{{ "/search" | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>search</a></li>
+				<a href="{{ "/blog" | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>Blog</a>
+                                <a href="{{ "/about" | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>about</a>
+                                <a href="{{ "/search" | prepend: site.baseurl }}"><i class="fa fa-cloud fa-2x"></i>search</a>
 		
 		
-			</ul>
-			</li>
-			</ul>
-		</nav>
+			
 	</div>
 
 
