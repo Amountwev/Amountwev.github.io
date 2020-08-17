@@ -62,6 +62,20 @@ time {
 }
 
 /* Aside */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+.fa-2x {
+    font-size: 2rem;
+}
+.fa {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    margin:3px;
+
 
 aside {
 	position: fixed;
@@ -85,26 +99,29 @@ aside {
 			margin: 0;
 			padding: 0;
 			list-style: none;
-                       overflow: auto;
-                       white-space: nowrap;
+                       
+      
 			li {
 				float: left;
 				position: relative;
 				a {
 					text-decoration: none;
 					display: block;
-					padding: 15px;
+					padding: 6px;
                                         color: white;
 					font-family: 'Muli', sans-serif;
 					line-height: 20px;
 					margin-bottom: -1px;
                                         margin-right: -1px ;
 					box-shadow: 0;
+
+                                        border: 1px solid #6E4B73;
+                                        border-radius: 5px;
 					&:hover,
 					&:active {
-						background: $header;
+						background: white;
 						text-decoration: none;
-						color: $main;
+						color: #6E4B73;
 					}
 				}
 			}
