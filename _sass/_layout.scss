@@ -77,8 +77,9 @@ aside {
 		margin: 0 auto;
                 position: fixed;
                 bottom:0;
-                overflow-y: hidden;
-                overflow-x: scroll;
+               
+              overflow: auto;
+              white-space: nowrap;
                 background: #6E4B73;
 		ul {
 			margin: 0;
@@ -95,6 +96,7 @@ aside {
 					font-family: 'Muli', sans-serif;
 					line-height: 20px;
 					margin-bottom: -1px;
+                                        margin-right: -1px ;
 					box-shadow: 0;
 					&:hover,
 					&:active {
