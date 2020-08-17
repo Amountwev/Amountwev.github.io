@@ -77,7 +77,8 @@ aside {
 		margin: 0 auto;
                 position: fixed;
                 bottom:0;
-                overflow: hidden;
+                overflow-y: hidden;
+                overflow-x: scroll;
                 background: #6E4B73;
 		ul {
 			margin: 0;
