@@ -40,11 +40,12 @@ a:hover {
 header {
 	background: $header;
 	padding: 0px 15px;
-	text-align: center;
+	text-align: left;
 	height: 50px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: left;
+        position: sticky;
 }
 main {
 	padding: 0 15px;
