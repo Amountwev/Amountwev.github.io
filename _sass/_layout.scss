@@ -38,10 +38,6 @@ a:hover {
 }
 
 header {
-	border-top: 1px solid #0079C6;
-    border-left:1px solid #0079C6;
-    border-right: 1px solid #0079C6;
-    border-bottom: 2px solid #0079C6;
     height: 45px;
     background: #BFBFBF;
     // Positioning context for the mobile navigation icon
@@ -55,7 +51,7 @@ position: -webkit-sticky;
 
 header.title {
     font-size: 30px;
-/* 		margin-top: 15px;
+/* 		margin-top: 2px;
     line-height: 40px; */
     letter-spacing: 0px;
     margin-bottom: 0;
