@@ -78,36 +78,50 @@ time {
 font-size: 18px;
 }
 
-div.scrollmenu {
-  background-color: #6E4B73;
-  overflow-x: scroll;
-  overflow-y: hide;
-  white-space: nowrap;
-  position: fixed;
-  bottom: 0;
- transition: 600ms 3s;
-  
-  
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    display: flex;
+    overflow-x: auto;
 }
 
-div.scrollmenu a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 6px;
-  text-decoration: none;
-  border-top: 1px solid #6E4B73;
-  border-right: 1px solid white;
-  border-radius: 5px;
-  transition: opacity 2.5s 3s, left 600ms 3s, top 1.5s 3s;
-  
+.nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444444;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
 }
 
-div.scrollmenu a:hover {
-  background-color: white;
-  color: #6E4B73;
- 
+
+.nav a:hover {
+    background-color: #eeeeee;
 }
+
+.nav a--active {
+    color: #009578;
+}
+
+.nav__icon {
+    font-size: 18px;
+}
+
+
+
 
 
 
