@@ -156,8 +156,8 @@ ul#archive {
 }
 
 ul#archive li {
-  border-top: #999 1px solid;
-       border-bottom: #999 1px solid;
+       border-top: #999 1px dotted;
+       border-bottom: #999 1px dotted;
        padding: .1em 0 .1em .5em;
 }
 
@@ -165,17 +165,14 @@ ul#archive li:nth-child(even) { background: #f9f9f9; }
 ul#archive li:nth-child(odd) { background: #fdfdfd; }
 
 ul#archive  h2 {
-	padding-top: .5em ;
-        display: block;
-        
-}
+	padding-top: .5em }
 
 ul#archive li.alt {
        background: #f6f6f6;
 }
 
 .archiveposturl {
-       display: inline-block;
+       display: block;
 
        color: #333;
 }
@@ -185,7 +182,7 @@ ul#archive li.alt {
 }
 
 ul#archive li span a {
-       color: #6E4B73;
+       color: black;
 	font-weight: bold;
 font-family: $font-style;
 }
