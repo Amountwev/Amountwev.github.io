@@ -173,7 +173,9 @@ ul#archive li:after {
   z-index: -1;
   animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;
-       padding: .o5em .1em .1em .05em;
+       padding: 1px 1px 1px 1px;
+       margin-bottom: 3px;
+       overflow: hidden;
 }
 
 ul#archive li:nth-child(even) { background: #f9f9f9; }
@@ -181,13 +183,14 @@ ul#archive li:nth-child(odd) { background: #fdfdfd; }
 
 ul#archive  h2 {
 	padding-top: .5em }
-
+        display: inline-block
+        overflow: hidden;
 ul#archive li.alt {
        background: #f6f6f6;
 }
 
 .archiveposturl {
-       display: block;
+       display: inline-block;
 
        color: #333;
 }
