@@ -156,12 +156,6 @@ ul#archive {
 }
 
 ul#archive li {
-       --borderWidth: 3px;
-  background: transparent;
-  position: relative;
-  border-radius: var(--borderWidth);
-}
-ul#archive li:after {
   border-top: #999 1px solid;
        border-bottom: #999 1px solid;
        padding: .1em 0 .1em .5em;
@@ -172,8 +166,8 @@ ul#archive li:nth-child(odd) { background: #fdfdfd; }
 
 ul#archive  h2 {
 	padding-top: .5em ;
-        display: inline-block;
-        overflow: hidden;
+        display: block;
+        
 }
 
 ul#archive li.alt {
