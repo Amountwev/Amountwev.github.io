@@ -10,6 +10,11 @@ github_username:  taniarascia
 # Build Settings
 sass:
   sass_dir: _sass
+  permalink: /:title/
 include: ['_pages']
 kramdown:
   input: GFM
+
+
+
+ 
