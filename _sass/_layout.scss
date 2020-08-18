@@ -157,25 +157,14 @@ ul#archive {
 
 ul#archive li {
        --borderWidth: 3px;
-  background: #1D1F20;
+  background: transparent;
   position: relative;
   border-radius: var(--borderWidth);
 }
 ul#archive li:after {
-  content: '';
-  position: absolute;
-  top: calc(-1 * var(--borderWidth));
-  left: calc(-1 * var(--borderWidth));
-  height: calc(100% + var(--borderWidth) * 2);
-  width: calc(100% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-  border-radius: calc(2 * var(--borderWidth));
-  z-index: -1;
-  animation: animatedgradient 3s ease alternate infinite;
-  background-size: 300% 300%;
-       padding: 1px 1px 1px 1px;
-       margin-bottom: 3px;
-       overflow: hidden;
+  border-top: #999 1px solid;
+       border-bottom: #999 1px solid;
+       padding: .1em 0 .1em .5em;
 }
 
 ul#archive li:nth-child(even) { background: #f9f9f9; }
