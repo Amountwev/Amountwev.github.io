@@ -38,12 +38,44 @@ a:hover {
 }
 
 header {
-	background: $header;
-	padding: 0px 15px;
-	text-align: left;
-	height: 50px;
-        position: sticky;
+	
+border-top: 1px solid #0079C6;
+    border-left:1px solid #0079C6;
+    border-right: 1px solid #0079C6;
+    border-bottom: 2px solid #0079C6;
+    height: 45px;
+    background: #BFBFBF;
+    // Positioning context for the mobile navigation icon
+   overflow: auto;
+  white-space: nowrap;
+position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
 }
+
+header.title {
+    font-size: 30px;
+/* 		margin-top: 15px;
+    line-height: 40px; */
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    float: left;
+    font-weight: 500;
+		font-family: $base-font-family;
+    color: #0079C6;
+    &,
+    &:visited {
+        color: #0079C6;
+    }
+    &,
+    &:hover {
+	text-decoration: none;
+}
+}
+
+
+
 main {
 	padding: 0 15px;
 	max-width: $content-width;
