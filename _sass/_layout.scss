@@ -272,7 +272,7 @@ article ul#archive > li:before {
     border-right: 4px solid rgba(255, 255, 255, 0);
   }
   100% {
-    border-right: 4px solid rgb(194, 194, 194);
+    border-right: 4px solid rgb(194, 194, 194, 0);
   }
 }
 
@@ -315,7 +315,7 @@ article ul#archive > li:before {
 
 .btn:hover {
   color: #fafafa;
-  background-color: rgba(189, 72, 0);
+  background-color: rgba(189, 72, 0, 0);
 }
 
 .scroll-down i {
