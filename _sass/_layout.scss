@@ -224,11 +224,8 @@ article ul#archive > li:before {
 .landing-page {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
-      135deg,
-      rgba(0, 64, 77, 0.9) 0%,
-      rgba(0, 0, 0, 0.8) 100%
-    ),
+  background: #6E4B73;
+    
     url("images/landing-page.png") center no-repeat;
   background-size: contain;
   position: relative;
@@ -254,13 +251,13 @@ article ul#archive > li:before {
   animation: typing 5s steps(27), blink 1s ease-in-out 7s infinite;
   width: 27ch;
   margin: auto;
-  border-right: 4px solid rgba(255, 255, 255, 1);
+  border-right: 4px solid #6E4B73;
 }
 
 @keyframes typing {
   75% {
     width: 0ch;
-    color: rgba(249, 105, 14, 1);
+    color: white;
   }
   100% {
     width: 27ch;
@@ -269,22 +266,18 @@ article ul#archive > li:before {
 
 @keyframes blink {
   0% {
-    border-right: 4px solid rgba(255, 255, 255, 0);
+    border-right: 4px solid #6E4B73;
   }
   100% {
-    border-right: 4px solid rgb(194, 194, 194, 0);
+    border-right: 4px solid #6E4B73;
   }
 }
 
 .main-message h3 {
   font-size: 4rem;
   margin: 1rem 0;
-  color: rgba(249, 105, 14, 1);
-  background: linear-gradient(
-    to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
-  );
+  color: white;
+  background: #6E4B73;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -302,7 +295,7 @@ article ul#archive > li:before {
 
 .btn {
   margin: 0 9px;
-  background: rgba(189, 155, 155, 0);
+  background: #6E4B73;
   border-radius: 2rem;
   color: #fafafa;
   padding: 1rem 2.5rem;
@@ -326,7 +319,7 @@ article ul#archive > li:before {
 }
 
 .scroll-down i:hover {
-  color: rgba(189, 72, 0);
+  color: #6E4B73;
 }
 
 /* About */
@@ -349,7 +342,7 @@ article ul#archive > li:before {
   width: auto;
   border-radius: 50%;
   margin: 2rem;
-  box-shadow: 0 20px 30px 0 rgba(0, 255, 255, 0.15);
+  box-shadow: 0 20px 30px 0 #6E4B73;
 }
 
 .about-text-box {
@@ -372,11 +365,7 @@ article ul#archive > li:before {
 
 hr {
   margin: 4rem 0;
-  background: linear-gradient(
-    to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
-  );
+  background: #6E4B73;
   border: 0;
   height: 1px;
 }
@@ -428,11 +417,7 @@ hr {
 .tier-item h2 {
   font-size: 2rem;
   margin: 2rem 0;
-  background: linear-gradient(
-    to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
-  );
+  background: #6E4B73;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -473,11 +458,7 @@ hr {
 .project-description h2 {
   font-size: 2rem;
   margin: 2rem 0;
-  background: linear-gradient(
-    to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
-  );
+  background: #6E4B73;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -574,7 +555,7 @@ footer a {
     flex-direction: column;
     align-items: flex-start;
     padding: 2rem;
-    box-shadow: 0 20px 30px 0 rgba(212, 255, 255, 0.15);
+    box-shadow: 0 20px 30px 0 #6E4B73
   }
   .project-img {
     width: 20rem;
