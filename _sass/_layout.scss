@@ -220,10 +220,9 @@ article ul#archive > li:before {
 
 
 .cir {
-  position: relative;
+  
   width: 200px;
   height: 200px;
-  overflow: hidden;
   border: 3px solid #6E4B73;
   border-radius: 50%;
   margin-right: auto;
@@ -281,7 +280,6 @@ ul.social-buttons li a {
   margin: 20px auto;
   background: white;
   border-radius: 10px;
-  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: lighter;
   letter-spacing: 2px;
