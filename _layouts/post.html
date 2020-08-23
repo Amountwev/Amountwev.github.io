@@ -3,6 +3,22 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
+
+{%- assign upper_minutes = page.content | number_of_words | divided_by: 160  -%}
+{%- assign lower_minutes = page.content | number_of_words | divided_by: 180  -%}
+
+{%- capture ttr -%}
+  {%- if upper_minutes == 0 -%}
+    {{ x_minute_read | replace: "$x$", "&lt;1" }}
+  {%- elsif upper_minutes == lower_minutes -%}
+    {%- capture val -%}~{{ upper_minutes }}{%- endcapture -%}
+    {{ x_minute_read | replace: "$x$", val }}
+  {%- else -%}
+    {%- capture val -%}{{ lower_minutes }}-{{ upper_minutes }}{%- endcapture -%}
+    {{ x_minute_read | replace: "$x$", val }}
+  {%- endif -%}
+{%- endcapture -%}
+
 <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
 
 {{ content }}
