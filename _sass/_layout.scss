@@ -237,7 +237,22 @@ article ul#archive > li:before {
   
 }
 
+ul.social-buttons {
+  text-align: center;
+}
 
+ul.social-buttons li {
+	display: inline-block;
+  margin: 0 10px;
+}
+
+ul.social-buttons li a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 60px;
+  color: #6E4B73;
+ 
+}
 
 
 .card {
