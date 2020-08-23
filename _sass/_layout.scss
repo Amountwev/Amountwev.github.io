@@ -220,7 +220,7 @@ article ul#archive > li:before {
 
 
 .cir {
-  
+  overflow: hidden;
   width: 200px;
   height: 200px;
   border: 3px solid #6E4B73;
@@ -249,6 +249,7 @@ a, a:hover {
 ul.social-buttons {
   text-align: center;
   margin-top: 50px;
+  position: relative;
 }
 
 ul.social-buttons li {
@@ -276,7 +277,6 @@ ul.social-buttons li a {
   border-radius: 5px;
   width: auto;
   padding: 10px;
-  position: relative;
   margin: 20px auto;
   background: white;
   border-radius: 10px;
